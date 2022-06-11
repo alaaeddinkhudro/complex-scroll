@@ -1,0 +1,71 @@
+/* vertical scroll */
+.vertical-section-one > div{
+    width: 100vw;
+    height: 100vh;
+}
+.vertical-section-one .one{
+    background-color: aqua;
+}
+
+.vertical-section-one .two{
+    background-color: teal;
+}
+
+.vertical-section-one .three{
+    background-color: rosybrown;
+}
+
+/* horizontal scroll */
+.horizontal-section-one{
+    position: relative;
+    width: 100vw;
+    height: 300vh;
+    overflow: hidden;
+}
+
+.horizontal-section-one .container{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.horizontal-section-one .end-detector{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+.horizontal-section-one > div > div{
+    width: 100vw;
+    height: 100vh;
+}
+.horizontal-section-one .one{
+    background-color: aqua;
+}
+
+.horizontal-section-one .two{
+    background-color: teal;
+}
+
+.horizontal-section-one .three{
+    background-color: rosybrown;
+}
+
+/* vertical scroll */
+.vertical-section-two > div{
+    width: 100vw;
+    height: 100vh;
+}
+.vertical-section-two .one{
+    background-color: aqua;
+}
+
+.vertical-section-two .two{
+    background-color: teal;
+}
+
+.vertical-section-two .three{
+    background-color: rosybrown;
+}
